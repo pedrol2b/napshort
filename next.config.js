@@ -4,7 +4,7 @@ const withImages = require('next-images')
 module.exports = {
   withImages: withImages({ esModule: true }),
   env: {
-    mongodburl: 'mongodb+srv://pedrolbb:6biLQ3rJKXwiXUVd@napshort.adrj7z4.mongodb.net/napshort',
+    mongodburl: 'YOUR_MONGO_URL',
   },
   i18n: {
     locales: ['en-US', 'pt-BR'],

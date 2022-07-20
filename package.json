@@ -1,9 +1,7 @@
 {
   "name": "napshort",
   "version": "0.1.0",
-  "private": true,
-  "author": "pedrolbb",
-  "license": "MIT",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -14,6 +12,13 @@
     "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json}\"",
     "lint": "eslint \"./**/*.{js,jsx,ts,tsx}\" --quiet --fix"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrolbb/napshort.git"
+  },
+  "author": "pedrolbb",
+  "license": "MIT",
+  "homepage": "https://github.com/pedrolbb/napshort#readme",
   "dependencies": {
     "axios": "^0.27.2",
     "cookies-next": "^2.1.1",

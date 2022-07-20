@@ -7,7 +7,7 @@
 
 ## Beware
 
-You will need to change *next.config.js* and provide your own mongo connection string
+You will need to change _next.config.js_ and provide your own mongo connection string
 
 ```
 /** next.config.js */
@@ -27,15 +27,15 @@ module.exports = {
 
 ## Features
 
-- [x]  Free and open source
+- [x] Free and open source
 
-- [x]  Responsive UI
+- [x] Responsive UI
 
-- [x]  Support for i18n english and portuguese
+- [x] Support for i18n english and portuguese
 
-- [x]  Dark theme
+- [x] Dark theme
 
-- [x]  Store shrinked urls in cookies
+- [x] Store shortened urls in cookies
 
 ## Contributing
 
@@ -43,4 +43,4 @@ Pull requests are welcome 🤠
 
 ## License
 
-**NapShort** is open source and is licnesed under the MIT License
+**NapShort** is open source and is licensed under the MIT License

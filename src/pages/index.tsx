@@ -157,7 +157,7 @@ const Home: NextPage<Props> = ({ toggleTheme }) => {
           {locale === 'en-US' ? enUS.by : ptBR.by} <a href="https://github.com/pedrolbb">pedrolbb</a>
         </Author>
       </Footer>
-      <FAB onClick={() => window.location.assign('https://github.com/pedrolbb?tab=repositories')}>
+      <FAB onClick={() => window.location.assign('https://github.com/pedrolbb/napshort')}>
         <FaGithub />
       </FAB>
     </>

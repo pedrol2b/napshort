@@ -7,7 +7,32 @@ interface Props {
   short: []
 }
 
+declare global {
+  interface Window {
+    clipboardData: any // eslint-disable-line
+  }
+}
+
 const Short: NextPage<Props> = ({ short }) => {
+  const copy = (toCopy: string) => {
+    if (window.clipboardData && window.clipboardData.setData) return window.clipboardData.setData('Text', toCopy)
+    else if (document.queryCommandSupported && document.queryCommandSupported('copy')) {
+      var textarea = document.createElement('textarea')
+      textarea.textContent = toCopy
+      textarea.style.position = 'fixed'
+
+      document.body.appendChild(textarea)
+      textarea.select()
+      try {
+        return document.execCommand('copy')
+      } catch (e) {
+        console.warn('Copy to clipboard failed.', e)
+      } finally {
+        document.body.removeChild(textarea)
+      }
+    }
+  }
+
   return (
     <>
       {short.map((c, i, arr) => {
@@ -24,7 +49,7 @@ const Short: NextPage<Props> = ({ short }) => {
                 id="shorturl"
                 onClick={() => {
                   try {
-                    navigator.clipboard.writeText(href + shorturl)
+                    copy(href + shorturl)
                   } catch (e) {}
                 }}
               >

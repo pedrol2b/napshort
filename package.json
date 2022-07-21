@@ -14,11 +14,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pedrolbb/napshort.git"
+    "url": "git+https://github.com/pedrol2b/napshort.git"
   },
-  "author": "pedrolbb",
+  "author": "pedrol2b",
   "license": "MIT",
-  "homepage": "https://github.com/pedrolbb/napshort#readme",
+  "homepage": "https://github.com/pedrol2b/napshort#readme",
   "dependencies": {
     "axios": "^0.27.2",
     "cookies-next": "^2.1.1",

@@ -154,10 +154,10 @@ const Home: NextPage<Props> = ({ toggleTheme }) => {
         <Author>
           {locale === 'en-US' ? enUS['made with'] : ptBR['made with']}
           <FaHeart />
-          {locale === 'en-US' ? enUS.by : ptBR.by} <a href="https://github.com/pedrolbb">pedrolbb</a>
+          {locale === 'en-US' ? enUS.by : ptBR.by} <a href="https://github.com/pedrol2b">pedrol2b</a>
         </Author>
       </Footer>
-      <FAB onClick={() => window.location.assign('https://github.com/pedrolbb/napshort')}>
+      <FAB onClick={() => window.location.assign('https://github.com/pedrol2b/napshort')}>
         <FaGithub />
       </FAB>
     </>

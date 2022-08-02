@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/pedrol2b/napshort.git"
   },
-  "author": "pedrol2b",
+  "author": "Pedro Bueno <pedrolbb@protonmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/pedrol2b/napshort#readme",
   "dependencies": {

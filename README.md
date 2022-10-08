@@ -3,7 +3,7 @@
 🚀 **NapShort** is a elegant and modern URL shortener built with NextJs and MongoDB
 [https://napshort.herokuapp.com/](https://napshort.herokuapp.com/)
 
-![](preview.png)
+![preview](https://user-images.githubusercontent.com/107975184/194691574-98eac24d-67b3-49b4-862d-89e6e9ce3ee5.png)
 
 ## Beware
 

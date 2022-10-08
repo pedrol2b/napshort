@@ -1,5 +1,7 @@
 # NapShort
 
+> ⚠️ This repository will no longer receive updates and will be **archived**, in the future i'll be refactoring this project.
+
 🚀 **NapShort** is a elegant and modern URL shortener built with NextJs and MongoDB
 [https://napshort.herokuapp.com/](https://napshort.herokuapp.com/)
 

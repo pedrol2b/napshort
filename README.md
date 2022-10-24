@@ -38,11 +38,3 @@ module.exports = {
 - [x] Dark theme
 
 - [x] Store shortened urls in cookies
-
-## Contributing
-
-Pull requests are welcome 🤠
-
-## License
-
-**NapShort** is open source and is licensed under the MIT License
